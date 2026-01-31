@@ -5,6 +5,6 @@ import androidx.compose.runtime.Composable
 
 @Composable
 fun greet(name:String){
-    Text(text="hello  your name is $name")
+    Text(text="hello  caris that is called  name is $name")
 }
 
