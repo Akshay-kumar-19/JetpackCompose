@@ -11,8 +11,10 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.jetpackcomposelearning.ui.greet
+import com.example.jetpackcomposelearning.ui.Greet
+
 import com.example.jetpackcomposelearning.ui.theme.JetpackComposeLearningTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,9 +24,13 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeLearningTheme {
 
+
                 Column {
-                    greet(name = "kumar")
-                    greet(name = "jeevan")
+                   Greet(name="akki kumar a  badding corona vuris")
+                   Greet(name="akki kumar a  man covid vuris")
+                   Greet(name="akki kumar a  rubics corona gym")
+
+
                 }
 
             }
