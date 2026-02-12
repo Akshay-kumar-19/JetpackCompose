@@ -15,10 +15,10 @@ import androidx.compose.runtime.Composable
 //}
 
 //---------recompositon
-@Composable
-fun Greet(name:String)
-{
-    Text(text="$name")
-}
+//@Composable
+//fun Greet(name:String)
+//{
+//    Text(text="$name")
+//}
 
 
